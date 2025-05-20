@@ -1,3 +1,4 @@
+
 CREATE TABLE IF NOT EXISTS curso (
   id SERIAL PRIMARY KEY,
   nome TEXT NOT NULL
@@ -15,3 +16,5 @@ CREATE TABLE professor (
   nome VARCHAR(100) NOT NULL,
   email VARCHAR(150) NOT NULL
 );
+
+ALTER TABLE alunos RENAME TO aluno;
